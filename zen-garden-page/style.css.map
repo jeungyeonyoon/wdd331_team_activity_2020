@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA,aAAa;ACAb,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,wCAAwC;CAC7D;;ADDD,eAAe",
+    "sources": [
+        "style.scss",
+        "partials/_chairs.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
