@@ -8,10 +8,12 @@ $secondary-font: 'Noto Sans', sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $primary-font; 
+}
 
 h1 {
   font-size: 2.5em;
   line-height: 1.2;
+}
 
 
 h2 {
@@ -22,8 +24,8 @@ h2 {
 p {
   font-family: $secondary-font;
   font-size: 1em;
+}
 
   a {
     font-size: 1.3em;
   }
-}
