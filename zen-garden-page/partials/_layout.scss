@@ -1,20 +1,20 @@
 .page-wrapper {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 15% 50%;
+    grid-template-rows: 25% 50%;
     grid-gap: 20px;
+}
+
+.preamble {
+    display: contents;
+    grid-column: 1;
+    grid-row: 2
 }
 
 .intro {
     text-align: center;
     grid-column: 1/4;
     grid-row: 1/2;
-}
-
-.preamble {
-    float: left;
-    text-align: left;
-    width: 25%;
 }
 
 .main {
