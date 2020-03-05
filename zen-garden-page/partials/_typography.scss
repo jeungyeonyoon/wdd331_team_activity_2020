@@ -5,12 +5,13 @@ $primary-font: 'Oxanium', sans-serif;
 $secondary-font: 'Noto Sans', sans-serif;
 $body-copy-color: #3A0404;
 $header-color: #5F5B4B;
-
+$link-color: #8e8e8e;
 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $primary-font; 
   color: $header-color;
+  list-style-type: none;
 }
 
 h1 {
@@ -33,6 +34,20 @@ p {
   font-size: 1em;
 }
 
-  a {
+a {
     font-size: 1.3em;
   }
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+  color:$link-color;
+}
+
+p a{
+  text-decoration: none;
+  color:$link-color;
+}
