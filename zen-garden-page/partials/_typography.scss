@@ -3,16 +3,20 @@
 
 $primary-font: 'Oxanium', sans-serif;
 $secondary-font: 'Noto Sans', sans-serif;
+$body-copy-color: #3A0404;
+$header-color: #5F5B4B;
 
 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $primary-font; 
+  color: $header-color
 }
 
 h1 {
   font-size: 2.5em;
   line-height: 1.2;
+  color:
 }
 
 
@@ -20,6 +24,9 @@ h2 {
   font-size:2em;
 }
 
+body{
+  color: $body-copy-color;
+}
 
 p {
   font-family: $secondary-font;
