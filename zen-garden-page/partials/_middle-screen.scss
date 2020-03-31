@@ -35,7 +35,10 @@
 .main p,
 .main a {
     animation: scroll 60s infinite;
-    font-size: 2em;
+}
+
+.main h3 {
+    font-size: 3em;
 }
 
 .explanation,
