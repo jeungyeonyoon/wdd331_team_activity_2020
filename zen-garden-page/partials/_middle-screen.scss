@@ -34,7 +34,7 @@
 .main h3,
 .main p,
 .main a {
-    animation: scroll 60s infinite;
+    animation: scroll 70s infinite;
 }
 
 .main h3 {
@@ -82,21 +82,21 @@ footer {
 // Keyframe for the screen scrolling
 @keyframes scroll {
     0% {
-        transform: translate(0, 1000px);
+        transform: translate(0, 600px);
     }
 
     97% {
-        transform: translate(0, -1000px);
+        transform: translate(0, -1500px);
     }
 
     98% {
-        transform: translate(2000px, -1000px);
+        transform: translate(2000px, -1500px);
     }
 
     99% {
-        transform: translate(2000px, 1000px);
+        transform: translate(2000px, 1500px);
     }
     100% {
-        transform: translate(0px, 1000px);
+        transform: translate(0px, 600px);
     }
 }
