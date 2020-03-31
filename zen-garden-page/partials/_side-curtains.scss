@@ -33,6 +33,15 @@
     z-index: 2;
 }
 
+// Left Curtains
+.page-wrapper::before {
+    background-image: url(/zen-garden-page/files/curtain-02.svg);
+    content: "";
+    display: block;
+    height: 500px;
+    width: 500px;
+}
+
 // Dirty Textures
 .sidebar::after {
     content: "";
