@@ -5,9 +5,9 @@ body {
 
 .page-wrapper {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 24% 50% 24%;
     grid-template-rows: 25% 50%;
-    grid-gap: 20px;
+    grid-column-gap: 1%;
 }
 
 .intro {

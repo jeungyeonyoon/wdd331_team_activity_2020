@@ -1,4 +1,92 @@
 .main {
     overflow: hidden;
-    height: 400px;
+    //    font-size: 2em;
+    color: white;
+    position: relative;
+    background-color: rgba(255, 255, 255, .1);
+    margin-top: 20px;
+    border: 3px solid #464646;
+}
+
+.main::after {
+    content: "";
+    background-image: url(/zen-garden-page/files/FilmGrain.png);
+    position: absolute;
+    width: 200vw;
+    height: 200vh;
+    left: -50%;
+    top: -50%;
+    animation: grain 1.5s steps(6) infinite;
+    overflow: hidden;
+}
+
+.main h3 {
+    text-align: center;
+}
+
+// Styling that scrolls through all screen
+.main h3,
+.main p,
+.main a {
+    animation: scroll 45s infinite;
+}
+
+.explanation,
+.participation,
+.benefits,
+.requirements,
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+// Creating the film grain effect
+@keyframes grain {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    10% {
+        transform: translate(-5%, -10%);
+    }
+
+    30% {
+        transform: translate(3%, -15%);
+    }
+
+    50% {
+        transform: translate(12%, 9%);
+    }
+
+    70% {
+        transform: translate(9%, 4%);
+    }
+
+    90% {
+        transform: translate(-1%, 7%);
+    }
+}
+
+// Keyframe for the screen scrolling
+@keyframes scroll {
+    0% {
+        transform: translate(0, 1000px);
+    }
+
+    97% {
+        transform: translate(0, -1000px);
+    }
+
+    98% {
+        transform: translate(2000px, -1000px);
+    }
+
+    99% {
+        transform: translate(2000px, 1000px);
+    }
+    100% {
+        transform: translate(0px, 1000px);
+    }
 }
