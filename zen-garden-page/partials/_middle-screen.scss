@@ -6,6 +6,12 @@
     background-color: rgba(255, 255, 255, .1);
     margin-top: 20px;
     border: 3px solid #464646;
+    max-height: 600px;
+}
+
+.main a {
+    position: relative;
+    z-index: 5;
 }
 
 .main::after {
@@ -28,7 +34,8 @@
 .main h3,
 .main p,
 .main a {
-    animation: scroll 45s infinite;
+    animation: scroll 60s infinite;
+    font-size: 2em;
 }
 
 .explanation,
