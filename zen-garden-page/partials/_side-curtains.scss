@@ -1,5 +1,6 @@
 .sidebar {
     background-image: url(/zen-garden-page/files/curtain-02.svg);
+    position: relative;
 }
 
 .wrapper {
@@ -9,14 +10,72 @@
 .design-selection {
     background-color: #cccc00;
     border: 5px solid #3A0404;
+    position: relative;
+    z-index: 2;
 }
 
 .design-archives {
     background-color: #cccc00;
     border: 5px solid #3A0404;
+    position: relative;
+    z-index: 2;
 }
 
 .zen-resources {
     background-color: #cccc00;
     border: 5px solid #3A0404;
+    position: relative;
+    z-index: 2;
+}
+
+// Dirty Textures
+.sidebar::after {
+    content: "";
+    background-image: url(/zen-garden-page/files/dirt.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: .8;
+}
+
+.design-selection::after {
+    content: "";
+    background-image: url(/zen-garden-page/files/poster2.png);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: .2;
+}
+
+.design-archives::after {
+    content: "";
+    background-image: url(/zen-garden-page/files/poster3.png);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: .5;
+}
+
+.zen-resources::after {
+    content: "";
+    background-image: url(/zen-garden-page/files/poster.png);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: .5;
 }
