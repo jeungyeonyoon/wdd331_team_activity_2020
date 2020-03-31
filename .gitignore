@@ -4,3 +4,4 @@ build/
 *.css
 *.css.map
 .vscode/
+zen-garden-page/style.css.map
