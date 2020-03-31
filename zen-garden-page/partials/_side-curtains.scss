@@ -3,6 +3,11 @@
     position: relative;
 }
 
+.sidebar a {
+    position: relative;
+    z-index: 5;
+}
+
 .wrapper {
     padding: 20px;
 }
