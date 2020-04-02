@@ -92,3 +92,13 @@
     overflow: hidden;
     opacity: .5;
 }
+
+@media screen and (max-width: 900px) { 
+    .page-wrapper::before{
+        display: none;
+    }
+
+    .sidebar{
+         display: none;
+    }
+}

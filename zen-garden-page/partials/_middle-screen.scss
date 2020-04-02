@@ -131,3 +131,21 @@ footer {
         transform: translate(0px, 600px);
     }
 }
+
+
+@media screen and (max-width: 900px) { 
+    .main h3{
+        font-size: 2em;
+    }
+    
+    .main p{
+        font-size: 1em;
+    }
+
+    .main{
+        width: 100vw;
+    height: 200vh;
+    position: absolute;
+    margin-top: 60mm;
+    }
+}

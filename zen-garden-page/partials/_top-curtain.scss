@@ -41,6 +41,12 @@ header {
     z-index: 2;
 }
 
+
+
+.preamble>p{
+    font-size: 0.8em;
+}
+
 h1 {
     font-size: 3.5em;
 }
@@ -94,15 +100,22 @@ header::after {
     opacity: .2;
 }
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 900px) 
 { 
   h1 { 
     font-size: 2em; 
 }
-.preamble p {
+
+    h2{
+        font-size: 1em;
+    }
+.preamble>p {
     display: none;
 }
-    
+
+.summary p:nth-child(1){
+    display:none;
+}    
 
 }
 
