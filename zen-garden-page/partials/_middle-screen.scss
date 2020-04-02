@@ -33,12 +33,28 @@
 // Styling that scrolls through all screen
 .main h3,
 .main p,
-.main a {
-    animation: scroll 70s infinite;
+.main a,
+.main footer {
+    animation: scroll 150s infinite;
+}
+
+.main footer a {
+    text-decoration: none;
+    color: #cccc00;
+    font-size: 2em;
+    text-align: center;
 }
 
 .main h3 {
-    font-size: 3em;
+    font-size: 4em;
+}
+
+.main a {
+    color: #cccc00;
+}
+
+.main p {
+    font-size: 2em;;
 }
 
 .explanation,
@@ -86,15 +102,15 @@ footer {
     }
 
     97% {
-        transform: translate(0, -1500px);
+        transform: translate(0, -4000px);
     }
 
     98% {
-        transform: translate(2000px, -1500px);
+        transform: translate(2000px, -4000px);
     }
 
     99% {
-        transform: translate(2000px, 1500px);
+        transform: translate(2000px, 3750px);
     }
     100% {
         transform: translate(0px, 600px);

@@ -1,0 +1,78 @@
+.extra6 {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    animation: popcornx 10s linear infinite;
+}
+
+// .extra6::before {
+//     animation: spin 5s infinite;
+//     display: block;
+//     content: "";
+// }
+
+.extra6::after {
+    content: "...";
+    font-size: 3em;
+    color: black;
+    background-image: url(/zen-garden-page/files/popcorn-02.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: popcorny 10s infinite;
+    display: block;
+    z-index: 101;
+}
+
+// @keyframes spin {
+//     from {
+//         transform: rotate(0deg);
+//     }
+//     to {
+//         transform: rotate(360deg);
+//     }
+// }
+
+@keyframes popcornx {
+
+    0% {
+    }
+
+    10% {
+        animation-timing-function: ease-in-out;
+        transform: translateX(20vw);
+        // transform: rotate(360deg);
+    }
+    11% {
+        left: 50vw;
+    }
+    20% {
+        animation-timing-function: ease-in-out;
+        transform: translateX(-10vw);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes popcorny {
+
+    5% {
+        animation-timing-function: ease-in-out;
+        transform: translatey(calc(-300px));
+    }
+    10% {
+        animation-timing-function: ease-in-out;
+        transform: translatey(0);
+    }
+    15% {
+        animation-timing-function: ease-in-out;
+        transform: translatey(calc(-500px));
+    }
+    20% {
+        animation-timing-function: ease-in-out;
+        transform: translatey(0);
+    }
+
+}
