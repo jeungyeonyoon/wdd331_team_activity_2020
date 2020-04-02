@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     padding: 0;
+    overflow: hidden;
 }
 
 .page-wrapper {
@@ -26,8 +27,10 @@ body {
     grid-row: 2;
 }
 
-.page-wrapper::before {
+.page-wrapper::before, .page-wrapper::after {
     grid-column: 1;
     grid-row: 2;
 }
+
+
 

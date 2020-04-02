@@ -2,7 +2,7 @@
     position: absolute;
     left: 0;
     bottom: 0px;
-    animation: popcornx 10s linear infinite;
+    animation: popcornx 20s linear infinite;
 }
 
 // .extra6::before {
@@ -12,14 +12,15 @@
 // }
 
 .extra6::after {
-    content: "...";
-    font-size: 3em;
+    content: "";
     color: black;
     background-image: url(/zen-garden-page/files/popcorn-02.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    animation: popcorny 10s infinite;
+    animation: popcorny 20s infinite;
     display: block;
+    width: 40px;
+    height: 40px;
     z-index: 101;
 }
 
@@ -40,18 +41,16 @@
     10% {
         animation-timing-function: ease-in-out;
         transform: translateX(20vw);
-        // transform: rotate(360deg);
     }
     11% {
         left: 50vw;
     }
     20% {
         animation-timing-function: ease-in-out;
-        transform: translateX(-10vw);
+        transform: rotate(270deg) translateX(-10vw);
     }
 
     100% {
-        transform: rotate(360deg);
     }
 
 }
