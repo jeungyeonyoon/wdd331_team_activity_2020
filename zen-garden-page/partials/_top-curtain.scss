@@ -100,10 +100,10 @@ header::after {
     opacity: .2;
 }
 
-@media screen and (max-width: 900px) 
+@media screen and (max-width: 800px) 
 { 
   h1 { 
-    font-size: 2em; 
+    font-size: 1.5em; 
 }
 
     h2{
@@ -117,5 +117,18 @@ header::after {
     display:none;
 }    
 
+}
+
+
+@media screen and (max-width: 1000px){
+    h1{
+        font-size: 2em;
+    }
+    .preamble>p {
+        display: none;
+    }
+    .summary p:nth-child(1){
+        display:none;
+    }    
 }
 
