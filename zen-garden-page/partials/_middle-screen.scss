@@ -46,7 +46,7 @@
 
 // Styling that scrolls through all screen
 .main>* {
-    animation: scroll 15s infinite;
+    animation: scroll 150s infinite;
 }
 
 .main:hover>* {
@@ -146,6 +146,6 @@ footer {
         width: 100vw;
     height: 200vh;
     position: absolute;
-    margin-top: 60mm;
+    margin-top: 300px;
     }
 }
