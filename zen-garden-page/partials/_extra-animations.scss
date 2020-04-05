@@ -1,8 +1,8 @@
 .extra6 {
     position: absolute;
     left: 0;
-    bottom: 0px;
-    animation: popcornx 20s linear infinite;
+    bottom: -20px;
+    animation: popcornx 10s linear infinite;
 }
 
 // .extra6::before {
@@ -17,10 +17,10 @@
     background-image: url(/zen-garden-page/files/popcorn-02.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    animation: popcorny 20s infinite;
+    animation: popcorny 10s infinite;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 2vw;
+    height: 2vw;
     z-index: 101;
 }
 
@@ -32,6 +32,8 @@
 //         transform: rotate(360deg);
 //     }
 // }
+
+
 
 @keyframes popcornx {
 
