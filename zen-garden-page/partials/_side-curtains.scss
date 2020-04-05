@@ -35,7 +35,7 @@
 
 // Left Curtains
 .page-wrapper::before {
-    background-image: url(/zen-garden-page/files/curtain-02.svg);
+    background: url(/zen-garden-page/files/curtain-02.svg);
     content: "";
     display: block;
     transform: rotate(180deg);

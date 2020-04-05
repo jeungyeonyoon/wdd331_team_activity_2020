@@ -14,7 +14,7 @@
     z-index: 5;
 }
 
-.main::after {
+.main::before {
     content: "";
     background-image: url(/zen-garden-page/files/FilmGrain.png);
     position: absolute;
@@ -24,18 +24,33 @@
     top: -50%;
     animation: grain 1.5s steps(6) infinite;
     overflow: hidden;
+    z-index: 0;
 }
+
+// .main::after {
+//     content: "";
+//     background-image: url(/zen-garden-page/files/FilmGrain.png);
+//     position: absolute;
+//     width: 200vw;
+//     height: 200vh;
+//     left: -50%;
+//     top: -50%;
+//     animation: grain 1.5s steps(6) infinite;
+//     overflow: hidden;
+//     z-index: 0;
+// }
 
 .main h3 {
     text-align: center;
 }
 
 // Styling that scrolls through all screen
-.main h3,
-.main p,
-.main a,
-.main footer {
-    animation: scroll 150s infinite;
+.main>* {
+    animation: scroll 15s infinite;
+}
+
+.main:hover>* {
+    animation-play-state: paused;
 }
 
 .main footer a {
