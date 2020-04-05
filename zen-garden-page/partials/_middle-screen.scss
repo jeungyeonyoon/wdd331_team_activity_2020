@@ -46,7 +46,7 @@
 
 // Styling that scrolls through all screen
 .main>* {
-    animation: scroll 150s infinite;
+    animation: scroll 15s infinite;
 }
 
 .main:hover>* {
@@ -146,7 +146,11 @@ footer {
     width: 100vw;
     height: 200vh;
     position: absolute;
+<<<<<<< HEAD
     margin-top: 400px;
+=======
+    margin-top: 60mm;
+>>>>>>> parent of ec603c6... fixed popcorn and screen animations
     }
 }
 
