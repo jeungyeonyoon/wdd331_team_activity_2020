@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
 
-$primary-font: 'Oxanium', sans-serif;
+$primary-font: 'Black Ops One', cursive;
 $secondary-font: 'Noto Sans', sans-serif;
 $body-copy-color: #3A0404;
 $header-color: #5F5B4B;
 $link-color: #8e8e8e;
+
+//font-family: 'Anton', sans-serif;
+//font-family: 'Black Ops One', cursive;
+//$primary-font: 'Oxanium', sans-serif;
 
 
 h1, h2, h3, h4, h5, h6 {
