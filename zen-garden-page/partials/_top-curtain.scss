@@ -102,33 +102,46 @@ header::after {
 
 @media screen and (max-width: 800px) 
 { 
-  h1 { 
-    font-size: 1.5em; 
-}
-
-    h2{
-        font-size: 1em;
+    .intro{
+        height: 100%;
+        
     }
-.preamble>p {
-    display: none;
-}
+    header{
+        font-size: .7em;
+        margin-top: 0%;
+    }
+    .preamble{
+        margin-top: 0%;
+        font-size: .7em;
+    }
+    .summary{
+        margin-bottom: 0%;
+        font-size: .7em;
+    }
 
-.summary p:nth-child(1){
-    display:none;
-}    
+   
 
 }
 
 
 @media screen and (max-width: 1000px){
+
+    
+    header{
+        height: 55%;
+    }
+    .preamble{
+        margin-top: 0%;
+    }
+    .summary{
+        margin-top: 0%;
+    }
     h1{
         font-size: 2em;
     }
-    .preamble>p {
-        display: none;
+    h2{
+        font-size: 1.5em;
     }
-    .summary p:nth-child(1){
-        display:none;
-    }    
+    
 }
 
