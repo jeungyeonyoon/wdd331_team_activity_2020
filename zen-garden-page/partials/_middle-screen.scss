@@ -46,7 +46,7 @@
 
 // Styling that scrolls through all screen
 .main>* {
-    animation: scroll 15s infinite;
+    animation: scroll 160s infinite;
 }
 
 .main:hover>* {
@@ -69,7 +69,8 @@
 }
 
 .main p {
-    font-size: 2em;;
+    font-size: 2em;
+    ;
 }
 
 .explanation,
@@ -127,47 +128,30 @@ footer {
     99% {
         transform: translate(2000px, 3750px);
     }
+
     100% {
         transform: translate(0px, 600px);
     }
 }
 
 
-@media screen and (max-width: 900px) { 
-    .main h3{
+@media screen and (max-width: 900px) {
+    .main h3 {
         font-size: 2em;
     }
-    
-    .main p{
+
+    .main p {
         font-size: 1em;
     }
 
-    .main{
-    width: 100vw;
-    height: 200vh;
-    position: absolute;
-<<<<<<< HEAD
-    margin-top: 400px;
-=======
-    margin-top: 60mm;
->>>>>>> parent of ec603c6... fixed popcorn and screen animations
-    }
-}
+    .main {
+        width: 100vw;
+        height: 200vh;
+        position: absolute;
 
-@media screen and (max-width: 800px) { 
-    .main{
-    margin-top: 250px;
-    }
-}
+        margin-top: 400px;
 
-@media screen and (max-width: 700px) { 
-    .main{
-    margin-top: 350px;
-    }
-}
-@media screen and (max-width: 500px) { 
-    .main{
-    margin-top: 460px;
-    }
-}
+        margin-top: 60mm;
 
+    }
+}

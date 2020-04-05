@@ -43,7 +43,7 @@ header {
 
 
 
-.preamble>p{
+.preamble>p {
     font-size: 0.8em;
 }
 
@@ -100,53 +100,77 @@ header::after {
     opacity: .2;
 }
 
-@media screen and (max-width: 800px){ 
-    header>h1 { 
-    font-size: 0.8em; 
+@media screen and (max-width: 800px) {
+    header>h1 {
+        font-size: 0.8em;
     }
 
-    h2{
+    h2 {
         font-size: 0.6em;
+    }
 
-    .intro{
+    .intro {
         height: 100%;
-        
+
     }
-    header{
+
+    header {
         font-size: .7em;
         margin-top: 0%;
     }
-    .preamble{
+
+    .preamble {
         margin-top: 0%;
         font-size: .7em;
     }
-    .summary{
+
+    .summary {
         margin-bottom: 0%;
         font-size: .7em;
     }
-   
+
 
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
 
-    
-    header{
-        height: 55%;
-    }
-    .preamble{
+
+    .preamble {
         margin-top: 0%;
     }
-    .summary{
+
+    .summary {
         margin-top: 0%;
     }
-    h1{
+
+    h1 {
         font-size: 2em;
     }
-    h2{
+
+    h2 {
         font-size: 1.4em;
     }
-    
+
 }
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2em;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .preamble>p {
+        display: none;
+    }
+
+    .summary p:nth-child(1) {
+        display: none;
+    }
 }
