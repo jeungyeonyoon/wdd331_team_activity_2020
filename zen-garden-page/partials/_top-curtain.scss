@@ -100,8 +100,14 @@ header::after {
     opacity: .2;
 }
 
-@media screen and (max-width: 800px) 
-{ 
+@media screen and (max-width: 800px){ 
+    header>h1 { 
+    font-size: 0.8em; 
+    }
+
+    h2{
+        font-size: 0.6em;
+
     .intro{
         height: 100%;
         
@@ -118,7 +124,6 @@ header::after {
         margin-bottom: 0%;
         font-size: .7em;
     }
-
    
 
 }
@@ -144,4 +149,3 @@ header::after {
     }
     
 }
-
